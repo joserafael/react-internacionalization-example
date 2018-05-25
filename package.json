@@ -8,6 +8,7 @@
     "lodash": "^4.17.10",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-github-corner": "^2.3.0",
     "react-intl-universal": "^1.11.1",
     "react-scripts": "1.1.4"
   },

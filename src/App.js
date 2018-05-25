@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import intl from "react-intl-universal";
 import _ from "lodash";
 import http from "axios";
+import GithubCorner from 'react-github-corner';
 import logo from './logo.svg';
 import './App.css';
 
@@ -47,6 +48,7 @@ class App extends Component {
         <p className="App-intro">
           {intl.getHTML('START')}
         </p>
+        <GithubCorner href="https://github.com/joserafael/react-internacionalization-example"  bannerColor="#70B7FD" />
       </div>
     );
   }
